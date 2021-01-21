@@ -1,0 +1,30 @@
+@media ( max-width: 1920px) {
+    .container {
+        width: 770px;
+    }
+}
+
+
+@media ( max-width: 1024px) {
+    .container {
+        width: 718px;
+    }
+
+    .cards__item {
+        flex: 0 0 345px;
+        width: 345px;
+    }
+}
+
+
+@media ( max-width: 768px) {
+    .container {
+        width: 280px;
+    }
+
+    .cards__item {
+        flex: 0 1 280px;
+        width: 280px;
+    }
+}
+
